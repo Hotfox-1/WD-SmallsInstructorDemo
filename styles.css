@@ -9,7 +9,7 @@ html {
   max-width: 100%;
 }
 
-.navbar { 
+.navbar {
   background-color: #EEECE6;
 }
 
@@ -17,7 +17,7 @@ html {
   border: transparent;
 }
 
-.offcanvas-header, .offcanvas-body{
+.offcanvas-header, .offcanvas-body {
   background-color: #ffec65;
 }
 
@@ -155,8 +155,46 @@ p {
   padding-left: 0;
 }
 
-/* MEDIA QUERIES START HERE */
- /* TABLET MEDIA QUERY */
+/* ================================================================
+   >>> INSTRUCTOR DEMO BEGINS HERE (Target time: 8 minutes) <<<
+   Built as separate blocks.
+   Paste one block at a time, resize the browser across 1024px right
+   after each one lands.
+================================================================ */
 
- 
+/* ---------------------------------------------------------------
+   SECTION 1 — Hero Image (~30 sec)
+--------------------------------------------------------------- */
 
+/* ---------------------------------------------------------------
+   SECTION 2 — Typography Scaling (~30 sec)
+--------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------
+   SECTION 3 — Feature Grid: Stacking + Color Inversion (~2 min)
+--------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------
+   SECTION 4 — Description Block (~30 sec)
+--------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------
+   SECTION 5 — Gallery Layout (~1.5 min)
+--------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------
+   SECTION 6 — Footer (~30 sec)
+--------------------------------------------------------------- */
+
+
+/* ================================================================
+   >>> INSTRUCTOR DEMO ENDS HERE <<<
+   Hand off to teams now — mobile is their build, not yours.
+================================================================ */
+
+/* MOBILE MEDIA QUERY */
+/* WRITE YOUR CODE BELOW THIS LINE */
