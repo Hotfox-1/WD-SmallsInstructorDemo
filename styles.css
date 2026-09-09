@@ -51,7 +51,7 @@ h1 {
 
 .tag {
   max-width: 100%;
-  width: 500px;
+  width: 100%;
   height: auto;
 }
 
@@ -198,3 +198,44 @@ p {
 
 /* MOBILE MEDIA QUERY */
 /* WRITE YOUR CODE BELOW THIS LINE */
+
+@media (max-width: 576px) {
+  /* Remove padding from testimonials image row in mobile */
+  #main .row.p-5 {
+    padding: 0 !important;
+  }
+
+  /* Add padding to all buttons */
+  .btn {
+    padding: 0.75rem 2rem;
+  }
+
+  /* Stack gallery cards vertically */
+  #gallery .col-6,
+  #gallery .col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  /* Reduce padding on benefit boxes */
+  #gallery .benefits {
+    padding: 0.5rem;
+  }
+
+  /* Center button in mobile view */
+  #gallery .benefits button {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /* Center the START QUIZ button at bottom */
+  #gallery .container.text-center {
+    text-align: center;
+  }
+
+  #gallery .container.text-center button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
